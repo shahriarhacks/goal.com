@@ -5,7 +5,8 @@
 }
 
 header,
-main {
+main,
+nav {
     margin: 50px 140px 130px 140px;
 }
 
@@ -55,4 +56,42 @@ main {
 .header-banner img {
     width: 100%;
     height: 100%;
+}
+
+/* -------------------------------------------------------------------------
+                             Navigation Design
+----------------------------------------------------------------------------- */
+.nav-menu {
+    width: 312px;
+    height: 312px;
+    background-color: #25252577;
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    padding: 21px 55px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav-menu ul li a {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: black
+}
+
+.nav-menu ul li:hover,
+.nav-menu ul .active {
+    background: #E02C6D;
+    cursor: pointer;
 }
