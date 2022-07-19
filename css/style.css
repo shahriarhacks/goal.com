@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header,
+main {
+    margin: 50px 140px 130px 140px;
+}
+
+/* ==============================================
+                    Header Design
+================================================= */
+.header-section {
+    display: flex;
+    align-items: center;
+    background-color: #25252577;
+    border-radius: 30px;
+    margin-bottom: 130px;
+
+}
+
+.header-title {
+    width: 45%;
+    padding: 5%;
+}
+
+.header-title h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.header-title p {
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #E02C6D;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn .fa-angle-right {
+    margin-left: 10px;
+}
+
+.header-banner {
+    width: 45%;
+    padding: 5%;
+}
+
+.header-banner img {
+    width: 100%;
+    height: 100%;
+}
