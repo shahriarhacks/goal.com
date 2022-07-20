@@ -153,3 +153,52 @@
 /* ================================================================================
                                 Footer Design
 =================================================================================== */
+.footer-section {
+    display: flex;
+    align-items: center;
+    grid-column: 1/-1;
+    flex-direction: column;
+    background-color: #343950;
+}
+
+.company-name h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    width: 70%;
+}
+
+.footer-menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+}
